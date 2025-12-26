@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews | AP Coffee House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* THEME COLORS */
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background-color: #f1e1d4; 
+            color: #3d2b1f; 
+        }
+
+        /* Identical Header/Nav as Offer & Menu Page */
+        .navbar { 
+            background-color: #6b4a2a !important; 
+            padding: 1rem 0; 
+        }
+        .nav-link { 
+            color: white !important; 
+            font-weight: 500; 
+            margin: 0 10px; 
+        }
+        .nav-link.active {
+            border-bottom: 2px solid #c89b6b;
+        }
+        .offers-hero { 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('Home Background image.jpg') center/cover; 
+            padding: 80px 0; 
+            color: white; 
+            text-align: center; 
+        }
+
+        /* Identical Card Style as Offer & Menu Page */
+        .aesthetic-card { 
+            background: white; 
+            border: 2px dashed #c89b6b; 
+            border-radius: 20px; 
+            transition: 0.3s; 
+            height: 100%; 
+            text-align: center; 
+            padding: 30px;
+        }
+        .aesthetic-card:hover { 
+            border-style: solid; 
+            transform: translateY(-5px); 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+        }
+
+        .stars {
+            color: #f39c12;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .customer-name {
+            font-weight: 600;
+            color: #6b4a2a;
+            margin-top: 15px;
+            display: block;
+        }
+
+        /* Identical Footer as Offer & Menu Page */
+        footer { 
+            background-color: #3d2b1f; 
+            color: white; 
+            padding: 50px 0; 
+            text-align: center; 
+            margin-top: 50px; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="AP Logo.jpeg" width="40" height="40" class="rounded-circle me-2"> AP COFFEE
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="reviews.html">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="offers-hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Customer Reviews</h1>
+            <p class="lead">What our guests are saying about their AP experience</p>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <div class="row g-4">
+            
+            <div class="col-md-4">
+                <div class="aesthetic-card shadow-sm">
+                    <div class="stars">★★★★★</div>
+                    <p class="fst-italic">"The Tiramisu Latte is absolutely incredible! The best study spot in Clifton with the most aesthetic vibes."</p>
+                    <span class="customer-name">— Sarah K.</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="aesthetic-card shadow-sm">
+                    <div class="stars">★★★★★</div>
+                    <p class="fst-italic">"Love the Iced Americano with Lemon. It's so refreshing and the staff is incredibly friendly to students."</p>
+                    <span class="customer-name">— Ahmed R.</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="aesthetic-card shadow-sm">
+                    <div class="stars">★★★★★</div>
+                    <p class="fst-italic">"The Pistachio Frappe is a must-try. Everything from the logo to the coffee is perfectly designed."</p>
+                    <span class="customer-name">— Maria T.</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="aesthetic-card shadow-sm">
+                    <div class="stars">★★★★★</div>
+                    <p class="fst-italic">"Best Hot Matcha Latte in Karachi. I come here every day after classes to relax."</p>
+                    <span class="customer-name">— Zainab M.</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="aesthetic-card shadow-sm">
+                    <div class="stars">★★★★★</div>
+                    <p class="fst-italic">"Clean, cozy, and the coffee is high-quality. The 'Add to Cart' feature makes it so easy to order!"</p>
+                    <span class="customer-name">— Bilal S.</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="aesthetic-card shadow-sm">
+                    <div class="stars">★★★★★</div>
+                    <p class="fst-italic">"Excellent value for money, especially the student offers. AP Coffee House is my new favorite spot."</p>
+                    <span class="customer-name">— Hania Q.</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3 class="fw-bold mb-3">AP Coffee House</h3>
+            <p>Clifton Block 7, Karachi, Pakistan</p>
+            <p>WhatsApp: +92 300 1800960 | apcoffee@gmail.com</p>
+            <hr class="w-25 mx-auto my-4 border-secondary">
+            <p class="small opacity-50">&copy; 2025 AP Coffee House. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

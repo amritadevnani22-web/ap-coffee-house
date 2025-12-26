@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offers | AP Coffee House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .offer-card {
+            background: white;
+            border-radius: 20px;
+            border: 2px dashed #c89b6b;
+            transition: 0.3s;
+            height: 100%;
+        }
+        .offer-card:hover {
+            border-style: solid;
+            transform: scale(1.02);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .promo-code {
+            background: #f1e1d4;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+            color: #3d2b1f;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .offers-hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('coffee image 1.jpg') center/cover;
+            padding: 80px 0;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="AP Logo.jpeg" width="40" height="40" class="rounded-circle me-2"> AP COFFEE
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="offers.html">Offers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="offers-hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Exclusive Offers</h1>
+            <p class="lead">Great coffee tastes even better with a great deal.</p>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <div class="row g-4 justify-content-center">
+            
+            <div class="col-md-5">
+                <div class="offer-card p-5 text-center shadow-sm">
+                    <div class="mb-3 text-warning fs-1">🎓</div>
+                    <h3 class="fw-bold">Student Happy Hour</h3>
+                    <p>Show your University ID and get <strong>20% OFF</strong> on all Frappes and Iced Lattes between 4:00 PM and 7:00 PM.</p>
+                    <div class="promo-code">USE CODE: STUDENT20</div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="offer-card p-5 text-center shadow-sm">
+                    <div class="mb-3 text-danger fs-1">☕</div>
+                    <h3 class="fw-bold">New Brew Discount</h3>
+                    <p>First time at AP Coffee House? Get a <strong>Free Cookie</strong> with your first Tiramisu or Matcha Latte order!</p>
+                    <div class="promo-code">USE CODE: FIRSTBREW</div>
+                </div>
+            </div>
+
+            <div class="col-md-10">
+                <div class="offer-card p-5 text-center shadow-sm">
+                    <div class="mb-3 text-success fs-1">✨</div>
+                    <h3 class="fw-bold">Weekend Group Special</h3>
+                    <p>Coming with friends? Order any 4 drinks and get the <strong>5th one FREE!</strong> Perfect for study groups and weekend meetups in Clifton.</p>
+                    <p class="text-muted small">*Valid Saturday & Sunday only.</p>
+                    <div class="promo-code">NO CODE NEEDED - AUTOMATIC AT COUNTER</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-white py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Ready to Order?</h2>
+            <p class="mb-4">Check out our full selection of 14 signature drinks.</p>
+            <a href="menu.html" class="btn btn-dark btn-lg px-5 py-3 rounded-pill" style="background-color: #3d2b1f; border: none;">VIEW FULL MENU</a>
+        </div>
+    </section>
+
+    <footer class="py-5 text-white" style="background-color: #3d2b1f;">
+        <div class="container text-center">
+            <p class="mb-2">AP Coffee House — Clifton Block 7, Karachi</p>
+            <p class="small opacity-50">&copy; 2025 AP Coffee House. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
